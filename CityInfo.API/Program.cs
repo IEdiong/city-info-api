@@ -1,4 +1,6 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using CityInfo.API;
+
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
@@ -10,6 +12,7 @@ builder.Services.AddControllers(options =>
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddSingleton<CitiesDataStore>();
 
 var app = builder.Build();
 
