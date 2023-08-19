@@ -1,5 +1,4 @@
-﻿using System;
-namespace CityInfo.API.Models
+﻿namespace CityInfo.API.Models
 {
     public class CityDto
     {

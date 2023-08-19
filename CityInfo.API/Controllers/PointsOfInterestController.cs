@@ -13,7 +13,7 @@ namespace CityInfo.API.Controllers
 
         public PointsOfInterestController(CitiesDataStore citiesDataStore)
         {
-            this._citiesDataStore = citiesDataStore ?? throw new ArgumentNullException(nameof(citiesDataStore));
+            _citiesDataStore = citiesDataStore ?? throw new ArgumentNullException(nameof(citiesDataStore));
         }
 
         [HttpGet]
@@ -46,7 +46,7 @@ namespace CityInfo.API.Controllers
                 return NotFound();
             }
 
-            return pointOfInterest;
+            return Ok(pointOfInterest);
         }
 
         [HttpPost]

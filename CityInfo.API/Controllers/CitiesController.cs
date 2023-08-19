@@ -1,18 +1,17 @@
-﻿using System;
-using CityInfo.API.Models;
+﻿using CityInfo.API.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CityInfo.API.Controllers
 {
 	[ApiController]
-	[Route("api/cities")]
+	[Route("api/[controller]")]
 	public class CitiesController: ControllerBase
 	{
         private readonly CitiesDataStore _citiesDataStore;
 
         public CitiesController(CitiesDataStore citiesDataStore)
 		{
-            this._citiesDataStore = citiesDataStore ?? throw new ArgumentNullException(nameof(citiesDataStore));
+            _citiesDataStore = citiesDataStore ?? throw new ArgumentNullException(nameof(citiesDataStore));
         }
 
 		[HttpGet]
@@ -25,7 +24,8 @@ namespace CityInfo.API.Controllers
 		public ActionResult<CityDto> GetCity(int id)
 		{
 			// Find City
-			var cityToReturn = _citiesDataStore.Cities.FirstOrDefault(city => city.Id == id);
+			var cityToReturn = _citiesDataStore.Cities
+				.FirstOrDefault(city => city.Id == id);
 
 			if (cityToReturn == null)
 			{

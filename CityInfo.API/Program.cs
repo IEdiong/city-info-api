@@ -1,5 +1,6 @@
 ﻿using CityInfo.API;
 using CityInfo.API.DbContexts;
+using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,15 +10,20 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers(options =>
 {
     options.ReturnHttpNotAcceptable = true;
-}).AddNewtonsoftJson()
-.AddXmlDataContractSerializerFormatters();
+})
+    //.AddNewtonsoftJson()
+    .AddXmlDataContractSerializerFormatters();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddSingleton<FileExtensionContentTypeProvider>();
+
 builder.Services.AddSingleton<CitiesDataStore>();
 
 builder.Services.AddDbContext<CityInfoContext>(
-    dbContextOptions => dbContextOptions.UseSqlite("Data Source=CityInfo.db"));
+    dbContextOptions => dbContextOptions.UseSqlite(
+        builder.Configuration["ConnectionString:CityInfoDbConnectionString"]));
 
 var app = builder.Build();
 
