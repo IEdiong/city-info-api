@@ -33,12 +33,14 @@
     <None Remove="Models\" />
     <None Remove="Entities\" />
     <None Remove="DbContexts\" />
+    <None Remove="Services\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
     <Folder Include="Entities\" />
     <Folder Include="DbContexts\" />
+    <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
     <None Update="levelup-logo.jpeg">
