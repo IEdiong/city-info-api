@@ -98,30 +98,28 @@ namespace CityInfo.API.Controllers
         }
 
         [HttpPut("{pointofinterestid}")]
-        public ActionResult UpdatePointOfInterest(
+        public async Task<ActionResult> UpdatePointOfInterestAsync(
             int cityId,
-            PointOfInterestForUpdateDto pointofinterest,
-            int pointofinterestid)
+            PointOfInterestForUpdateDto pointOfInterest,
+            int pointOfInterestId)
         {
-            // find point of city
-            //var city = _citiesDataStore.Cities.FirstOrDefault(c => c.Id == cityId);
-            //if (city == null)
-            //{
-            //    return NotFound();
-            //}
+            if (!await _cityInfoRepository.CityExistsAsync(cityId))
+            {
+                return NotFound();
+            }
 
-            // find point of interest
-            //var pointOfInterestFromStore = city.PointsOfInterest.FirstOrDefault(p => p.Id == pointofinterestid);
-            //if (pointOfInterestFromStore == null)
-            //{
-            //    return NotFound();
-            //}
+            var pointOfInterestToUpdate = await _cityInfoRepository
+                .GetPointOfInterestForCityAsync(cityId, pointOfInterestId);
 
-            //pointOfInterestFromStore.Name = pointofinterest.Name;
-            //pointOfInterestFromStore.Description = pointofinterest.Description;
+            if (pointOfInterestToUpdate == null)
+            {
+                return NotFound();
+            }
 
-            //return NoContent();
-            return Ok();
+            _mapper.Map(pointOfInterest, pointOfInterestToUpdate);
+            await _cityInfoRepository.SaveChangesAsync();
+
+            return NoContent();
         }
 
         [HttpPatch("{pointofinterestid}")]
