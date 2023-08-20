@@ -26,6 +26,7 @@
     <PackageReference Include="Serilog.AspNetCore" Version="7.0.0" />
     <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
     <PackageReference Include="Serilog.Sinks.Console" Version="4.1.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -34,6 +35,7 @@
     <None Remove="Entities\" />
     <None Remove="DbContexts\" />
     <None Remove="Services\" />
+    <None Remove="Profiles\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -41,6 +43,7 @@
     <Folder Include="Entities\" />
     <Folder Include="DbContexts\" />
     <Folder Include="Services\" />
+    <Folder Include="Profiles\" />
   </ItemGroup>
   <ItemGroup>
     <None Update="levelup-logo.jpeg">
