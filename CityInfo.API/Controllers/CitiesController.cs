@@ -29,17 +29,24 @@ namespace CityInfo.API.Controllers
 		}
 
 		[HttpGet("{id}")]
-		public async Task<ActionResult<CityDto>> GetCity(int id)
+		public async Task<ActionResult> GetCity(
+			int id, bool includePointsOfInterest = false)
 		{
 			// Find City
-			var cityToReturn = await _cityInfoRepository.GetCityAsync(id, false);
+			var city = await _cityInfoRepository.GetCityAsync(
+				id, includePointsOfInterest);
 
-			if (cityToReturn == null)
+			if (city == null)
 			{
 				return NotFound();
 			}
 
-			return Ok(cityToReturn);
+			if (includePointsOfInterest)
+			{
+				return Ok(_mapper.Map<CityDto>(city));
+			}
+
+			return Ok(_mapper.Map<CityWithoutPointsOfInterestDto>(city));
 		}
 	}
 }
