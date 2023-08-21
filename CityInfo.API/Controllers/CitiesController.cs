@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CityInfo.API.Controllers
 {
-	//[Authorize]
+	[Authorize]
 	[ApiController]
 	[ApiVersion("1.0")]
 	[ApiVersion("2.0")]
