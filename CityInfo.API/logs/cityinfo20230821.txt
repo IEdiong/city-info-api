@@ -6798,3 +6798,91 @@ LIMIT @__p_1 OFFSET @__p_0
 2023-08-21 14:15:44.851 +01:00 [DBG] Connection id "0HMT2922M0G23" stopped.
 2023-08-21 14:15:44.852 +01:00 [DBG] Connection id "0HMT2922M0G23" sending FIN because: "The Socket transport's send loop completed gracefully."
 2023-08-21 14:15:44.855 +01:00 [DBG] Hosting stopped
+2023-08-21 14:21:53.078 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-21 14:21:53.172 +01:00 [DBG] Hosting starting
+2023-08-21 14:21:53.177 +01:00 [INF] User profile is available. Using '/Users/iediong/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-08-21 14:21:53.180 +01:00 [DBG] Reading data from file '/Users/iediong/.aspnet/DataProtection-Keys/key-5cba4a3e-92cc-49c6-b7df-537bcedc035b.xml'.
+2023-08-21 14:21:53.182 +01:00 [DBG] Reading data from file '/Users/iediong/.aspnet/DataProtection-Keys/key-87f24bd7-6b8e-4d43-8d92-819ef4f82424.xml'.
+2023-08-21 14:21:53.183 +01:00 [DBG] Reading data from file '/Users/iediong/.aspnet/DataProtection-Keys/key-ea2f1fd2-45c8-40ac-a18e-9ccecade0392.xml'.
+2023-08-21 14:21:53.187 +01:00 [DBG] Found key {5cba4a3e-92cc-49c6-b7df-537bcedc035b}.
+2023-08-21 14:21:53.189 +01:00 [DBG] Found key {87f24bd7-6b8e-4d43-8d92-819ef4f82424}.
+2023-08-21 14:21:53.189 +01:00 [DBG] Found key {ea2f1fd2-45c8-40ac-a18e-9ccecade0392}.
+2023-08-21 14:21:53.194 +01:00 [DBG] Considering key {87f24bd7-6b8e-4d43-8d92-819ef4f82424} with expiration date 2023-09-11 15:42:30Z as default key.
+2023-08-21 14:21:53.195 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-08-21 14:21:53.198 +01:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2023-08-21 14:21:53.198 +01:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2023-08-21 14:21:53.201 +01:00 [DBG] Using key {87f24bd7-6b8e-4d43-8d92-819ef4f82424} as the default key.
+2023-08-21 14:21:53.202 +01:00 [DBG] Key ring with default key {87f24bd7-6b8e-4d43-8d92-819ef4f82424} was loaded during application startup.
+2023-08-21 14:21:53.288 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 3680D8C39A7177FC1362E83A973AB59B5E8B8769)
+2023-08-21 14:21:53.300 +01:00 [INF] Now listening on: https://localhost:7015
+2023-08-21 14:21:53.300 +01:00 [INF] Now listening on: http://localhost:5135
+2023-08-21 14:21:53.300 +01:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-08-21 14:21:53.300 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-21 14:21:53.300 +01:00 [INF] Hosting environment: Development
+2023-08-21 14:21:53.300 +01:00 [INF] Content root path: /Users/iediong/Code/tutorials/csharp-projects/CityInfo/CityInfo.API/
+2023-08-21 14:21:53.300 +01:00 [DBG] Hosting started
+2023-08-21 14:21:56.002 +01:00 [DBG] Connection id "0HMT296BMT7BF" accepted.
+2023-08-21 14:21:56.003 +01:00 [DBG] Connection id "0HMT296BMT7BF" started.
+2023-08-21 14:21:56.061 +01:00 [DBG] Connection 0HMT296BMT7BF established using the following protocol: "Tls12"
+2023-08-21 14:21:56.087 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7015/swagger/index.html - -
+2023-08-21 14:21:56.090 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-21 14:21:56.104 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-21 14:21:56.105 +01:00 [DBG] Request did not match any endpoints
+2023-08-21 14:21:56.220 +01:00 [DBG] Connection id "0HMT296BMT7BF" completed keep alive response.
+2023-08-21 14:21:56.221 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7015/swagger/index.html - - - 200 - text/html;charset=utf-8 136.9685ms
+2023-08-21 14:21:56.441 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7015/swagger/v1/swagger.json - -
+2023-08-21 14:21:56.442 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-21 14:21:56.442 +01:00 [DBG] Request did not match any endpoints
+2023-08-21 14:21:56.554 +01:00 [DBG] Connection id "0HMT296BMT7BF" completed keep alive response.
+2023-08-21 14:21:56.554 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7015/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 112.8756ms
+2023-08-21 14:21:59.521 +01:00 [DBG] Connection id "0HMT296BMT7BF" received FIN.
+2023-08-21 14:21:59.525 +01:00 [DBG] Connection id "0HMT296BMT7BF" sending FIN because: "The client closed the connection."
+2023-08-21 14:21:59.534 +01:00 [DBG] Connection id "0HMT296BMT7BF" disconnecting.
+2023-08-21 14:21:59.537 +01:00 [DBG] Connection id "0HMT296BMT7BF" stopped.
+2023-08-21 14:24:49.605 +01:00 [INF] Application is shutting down...
+2023-08-21 14:24:49.608 +01:00 [DBG] Hosting stopping
+2023-08-21 14:24:49.628 +01:00 [DBG] Hosting stopped
+2023-08-21 14:24:54.968 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-21 14:24:55.058 +01:00 [DBG] Hosting starting
+2023-08-21 14:24:55.064 +01:00 [INF] User profile is available. Using '/Users/iediong/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-08-21 14:24:55.067 +01:00 [DBG] Reading data from file '/Users/iediong/.aspnet/DataProtection-Keys/key-5cba4a3e-92cc-49c6-b7df-537bcedc035b.xml'.
+2023-08-21 14:24:55.070 +01:00 [DBG] Reading data from file '/Users/iediong/.aspnet/DataProtection-Keys/key-87f24bd7-6b8e-4d43-8d92-819ef4f82424.xml'.
+2023-08-21 14:24:55.071 +01:00 [DBG] Reading data from file '/Users/iediong/.aspnet/DataProtection-Keys/key-ea2f1fd2-45c8-40ac-a18e-9ccecade0392.xml'.
+2023-08-21 14:24:55.075 +01:00 [DBG] Found key {5cba4a3e-92cc-49c6-b7df-537bcedc035b}.
+2023-08-21 14:24:55.077 +01:00 [DBG] Found key {87f24bd7-6b8e-4d43-8d92-819ef4f82424}.
+2023-08-21 14:24:55.077 +01:00 [DBG] Found key {ea2f1fd2-45c8-40ac-a18e-9ccecade0392}.
+2023-08-21 14:24:55.082 +01:00 [DBG] Considering key {87f24bd7-6b8e-4d43-8d92-819ef4f82424} with expiration date 2023-09-11 15:42:30Z as default key.
+2023-08-21 14:24:55.082 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-08-21 14:24:55.086 +01:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2023-08-21 14:24:55.086 +01:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2023-08-21 14:24:55.090 +01:00 [DBG] Using key {87f24bd7-6b8e-4d43-8d92-819ef4f82424} as the default key.
+2023-08-21 14:24:55.090 +01:00 [DBG] Key ring with default key {87f24bd7-6b8e-4d43-8d92-819ef4f82424} was loaded during application startup.
+2023-08-21 14:24:55.175 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 3680D8C39A7177FC1362E83A973AB59B5E8B8769)
+2023-08-21 14:24:55.185 +01:00 [INF] Now listening on: https://localhost:7015
+2023-08-21 14:24:55.186 +01:00 [INF] Now listening on: http://localhost:5135
+2023-08-21 14:24:55.186 +01:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-08-21 14:24:55.186 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-21 14:24:55.186 +01:00 [INF] Hosting environment: Development
+2023-08-21 14:24:55.186 +01:00 [INF] Content root path: /Users/iediong/Code/tutorials/csharp-projects/CityInfo/CityInfo.API/
+2023-08-21 14:24:55.186 +01:00 [DBG] Hosting started
+2023-08-21 14:24:57.215 +01:00 [DBG] Connection id "0HMT2981N3KFT" accepted.
+2023-08-21 14:24:57.217 +01:00 [DBG] Connection id "0HMT2981N3KFT" started.
+2023-08-21 14:24:57.275 +01:00 [DBG] Connection 0HMT2981N3KFT established using the following protocol: "Tls12"
+2023-08-21 14:24:57.302 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7015/swagger/index.html - -
+2023-08-21 14:24:57.305 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-21 14:24:57.319 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-21 14:24:57.319 +01:00 [DBG] Request did not match any endpoints
+2023-08-21 14:24:57.433 +01:00 [DBG] Connection id "0HMT2981N3KFT" completed keep alive response.
+2023-08-21 14:24:57.434 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7015/swagger/index.html - - - 200 - text/html;charset=utf-8 134.2247ms
+2023-08-21 14:24:57.661 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7015/swagger/v1/swagger.json - -
+2023-08-21 14:24:57.661 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-21 14:24:57.661 +01:00 [DBG] Request did not match any endpoints
+2023-08-21 14:24:57.782 +01:00 [DBG] Connection id "0HMT2981N3KFT" completed keep alive response.
+2023-08-21 14:24:57.783 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7015/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 122.0244ms
+2023-08-21 14:24:59.795 +01:00 [DBG] Connection id "0HMT2981N3KFT" received FIN.
+2023-08-21 14:24:59.798 +01:00 [DBG] Connection id "0HMT2981N3KFT" sending FIN because: "The client closed the connection."
+2023-08-21 14:24:59.810 +01:00 [DBG] Connection id "0HMT2981N3KFT" disconnecting.
+2023-08-21 14:24:59.814 +01:00 [DBG] Connection id "0HMT2981N3KFT" stopped.
+2023-08-21 14:25:17.876 +01:00 [INF] Application is shutting down...
+2023-08-21 14:25:17.877 +01:00 [DBG] Hosting stopping
+2023-08-21 14:25:17.890 +01:00 [DBG] Hosting stopped
