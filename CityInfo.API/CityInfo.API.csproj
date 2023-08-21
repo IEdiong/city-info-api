@@ -30,6 +30,7 @@
     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.32.1" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.32.1" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.19" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.1.0" />
   </ItemGroup>
 
   <ItemGroup>
