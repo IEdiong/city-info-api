@@ -1,0 +1,152 @@
+2023-08-28 16:40:10.295 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-28 16:40:10.343 +01:00 [DBG] Hosting starting
+2023-08-28 16:40:10.352 +01:00 [INF] User profile is available. Using '/Users/iediong/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-08-28 16:40:10.354 +01:00 [DBG] Reading data from file '/Users/iediong/.aspnet/DataProtection-Keys/key-5cba4a3e-92cc-49c6-b7df-537bcedc035b.xml'.
+2023-08-28 16:40:10.356 +01:00 [DBG] Reading data from file '/Users/iediong/.aspnet/DataProtection-Keys/key-87f24bd7-6b8e-4d43-8d92-819ef4f82424.xml'.
+2023-08-28 16:40:10.357 +01:00 [DBG] Reading data from file '/Users/iediong/.aspnet/DataProtection-Keys/key-ea2f1fd2-45c8-40ac-a18e-9ccecade0392.xml'.
+2023-08-28 16:40:10.359 +01:00 [DBG] Found key {5cba4a3e-92cc-49c6-b7df-537bcedc035b}.
+2023-08-28 16:40:10.361 +01:00 [DBG] Found key {87f24bd7-6b8e-4d43-8d92-819ef4f82424}.
+2023-08-28 16:40:10.361 +01:00 [DBG] Found key {ea2f1fd2-45c8-40ac-a18e-9ccecade0392}.
+2023-08-28 16:40:10.363 +01:00 [DBG] Considering key {87f24bd7-6b8e-4d43-8d92-819ef4f82424} with expiration date 2023-09-11 15:42:30Z as default key.
+2023-08-28 16:40:10.364 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-08-28 16:40:10.364 +01:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2023-08-28 16:40:10.364 +01:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2023-08-28 16:40:10.366 +01:00 [DBG] Using key {87f24bd7-6b8e-4d43-8d92-819ef4f82424} as the default key.
+2023-08-28 16:40:10.366 +01:00 [DBG] Key ring with default key {87f24bd7-6b8e-4d43-8d92-819ef4f82424} was loaded during application startup.
+2023-08-28 16:40:10.572 +01:00 [INF] Now listening on: https://localhost:7015
+2023-08-28 16:40:10.573 +01:00 [INF] Now listening on: http://localhost:5135
+2023-08-28 16:40:10.573 +01:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-08-28 16:40:10.573 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-28 16:40:10.573 +01:00 [INF] Hosting environment: Development
+2023-08-28 16:40:10.573 +01:00 [INF] Content root path: /Users/iediong/Code/tutorials/csharp-projects/CityInfo/CityInfo.API
+2023-08-28 16:40:10.573 +01:00 [DBG] Hosting started
+2023-08-28 16:41:20.864 +01:00 [DBG] Connection id "0HMT7RKT2O42J" accepted.
+2023-08-28 16:41:20.865 +01:00 [DBG] Connection id "0HMT7RKT2O42J" started.
+2023-08-28 16:41:20.923 +01:00 [DBG] Connection 0HMT7RKT2O42J established using the following protocol: "Tls12"
+2023-08-28 16:41:20.958 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7015/ - -
+2023-08-28 16:41:20.959 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-28 16:41:20.981 +01:00 [DBG] No candidates found for the request path '/'
+2023-08-28 16:41:20.981 +01:00 [DBG] Request did not match any endpoints
+2023-08-28 16:41:21.009 +01:00 [DBG] The request path  does not match the path filter
+2023-08-28 16:41:21.061 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-08-28 16:41:21.064 +01:00 [DBG] Connection id "0HMT7RKT2O42J" completed keep alive response.
+2023-08-28 16:41:21.065 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7015/ - - - 404 0 - 108.2801ms
+2023-08-28 16:41:22.965 +01:00 [DBG] Connection id "0HMT7RKT2O42J" received FIN.
+2023-08-28 16:41:22.970 +01:00 [DBG] Connection id "0HMT7RKT2O42J" sending FIN because: "The client closed the connection."
+2023-08-28 16:41:22.980 +01:00 [DBG] Connection id "0HMT7RKT2O42J" disconnecting.
+2023-08-28 16:41:22.985 +01:00 [DBG] Connection id "0HMT7RKT2O42J" stopped.
+2023-08-28 16:41:26.612 +01:00 [DBG] Connection id "0HMT7RKT2O42K" accepted.
+2023-08-28 16:41:26.612 +01:00 [DBG] Connection id "0HMT7RKT2O42K" started.
+2023-08-28 16:41:26.659 +01:00 [DBG] Connection 0HMT7RKT2O42K established using the following protocol: "Tls12"
+2023-08-28 16:41:26.660 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7015/swagger/index.html - -
+2023-08-28 16:41:26.661 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-28 16:41:26.661 +01:00 [DBG] Request did not match any endpoints
+2023-08-28 16:41:26.711 +01:00 [DBG] Connection id "0HMT7RKT2O42K" completed keep alive response.
+2023-08-28 16:41:26.711 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7015/swagger/index.html - - - 200 - text/html;charset=utf-8 50.3940ms
+2023-08-28 16:41:26.728 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7015/swagger/swagger-ui.css - -
+2023-08-28 16:41:26.728 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-08-28 16:41:26.728 +01:00 [DBG] Request did not match any endpoints
+2023-08-28 16:41:26.734 +01:00 [DBG] Connection id "0HMT7RKT2O42L" accepted.
+2023-08-28 16:41:26.734 +01:00 [DBG] Connection id "0HMT7RKT2O42L" started.
+2023-08-28 16:41:26.735 +01:00 [DBG] Connection id "0HMT7RKT2O42M" accepted.
+2023-08-28 16:41:26.735 +01:00 [DBG] Connection id "0HMT7RKT2O42M" started.
+2023-08-28 16:41:26.843 +01:00 [DBG] Connection 0HMT7RKT2O42L established using the following protocol: "Tls12"
+2023-08-28 16:41:26.843 +01:00 [DBG] Connection 0HMT7RKT2O42M established using the following protocol: "Tls12"
+2023-08-28 16:41:26.869 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7015/swagger/swagger-ui-bundle.js - -
+2023-08-28 16:41:26.870 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-08-28 16:41:26.869 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7015/swagger/swagger-ui-standalone-preset.js - -
+2023-08-28 16:41:26.870 +01:00 [DBG] Request did not match any endpoints
+2023-08-28 16:41:26.870 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-08-28 16:41:26.870 +01:00 [DBG] Request did not match any endpoints
+2023-08-28 16:41:26.872 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-28 16:41:26.873 +01:00 [DBG] Connection id "0HMT7RKT2O42K" completed keep alive response.
+2023-08-28 16:41:26.873 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7015/swagger/swagger-ui.css - - - 200 143632 text/css 144.8048ms
+2023-08-28 16:41:26.902 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-08-28 16:41:26.903 +01:00 [DBG] Connection id "0HMT7RKT2O42M" completed keep alive response.
+2023-08-28 16:41:26.903 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7015/swagger/swagger-ui-standalone-preset.js - - - 200 337162 text/javascript 33.6479ms
+2023-08-28 16:41:26.905 +01:00 [DBG] Connection id "0HMT7RKT2O42N" accepted.
+2023-08-28 16:41:26.905 +01:00 [DBG] Connection id "0HMT7RKT2O42N" started.
+2023-08-28 16:41:26.909 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-08-28 16:41:26.909 +01:00 [DBG] Connection id "0HMT7RKT2O42L" completed keep alive response.
+2023-08-28 16:41:26.909 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7015/swagger/swagger-ui-bundle.js - - - 200 1092889 text/javascript 40.0279ms
+2023-08-28 16:41:26.911 +01:00 [DBG] Connection id "0HMT7RKT2O42O" accepted.
+2023-08-28 16:41:26.911 +01:00 [DBG] Connection id "0HMT7RKT2O42O" started.
+2023-08-28 16:41:26.928 +01:00 [DBG] Connection 0HMT7RKT2O42N established using the following protocol: "Tls12"
+2023-08-28 16:41:26.928 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7015/swagger/swagger-ui-standalone-preset.js - -
+2023-08-28 16:41:26.928 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-08-28 16:41:26.928 +01:00 [DBG] Request did not match any endpoints
+2023-08-28 16:41:26.958 +01:00 [DBG] Connection 0HMT7RKT2O42O established using the following protocol: "Tls12"
+2023-08-28 16:41:26.984 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-08-28 16:41:26.986 +01:00 [DBG] Connection id "0HMT7RKT2O42N" completed keep alive response.
+2023-08-28 16:41:26.986 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7015/swagger/swagger-ui-standalone-preset.js - - - 200 337162 text/javascript 57.6837ms
+2023-08-28 16:41:26.986 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7015/swagger/swagger-ui-bundle.js - -
+2023-08-28 16:41:26.986 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-08-28 16:41:26.986 +01:00 [DBG] Request did not match any endpoints
+2023-08-28 16:41:26.989 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7015/swagger/v1/swagger.json - -
+2023-08-28 16:41:27.061 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-28 16:41:27.087 +01:00 [DBG] Request did not match any endpoints
+2023-08-28 16:41:27.089 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-08-28 16:41:27.089 +01:00 [DBG] Connection id "0HMT7RKT2O42N" completed keep alive response.
+2023-08-28 16:41:27.090 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7015/swagger/swagger-ui-bundle.js - - - 200 1092889 text/javascript 103.2766ms
+2023-08-28 16:41:27.169 +01:00 [DBG] Connection id "0HMT7RKT2O42L" completed keep alive response.
+2023-08-28 16:41:27.170 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7015/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 181.5779ms
+2023-08-28 16:41:27.971 +01:00 [DBG] Connection id "0HMT7RKT2O42N" received FIN.
+2023-08-28 16:41:27.971 +01:00 [DBG] Connection id "0HMT7RKT2O42K" received FIN.
+2023-08-28 16:41:27.972 +01:00 [DBG] Connection id "0HMT7RKT2O42M" received FIN.
+2023-08-28 16:41:27.971 +01:00 [DBG] Connection id "0HMT7RKT2O42O" received FIN.
+2023-08-28 16:41:27.972 +01:00 [DBG] Connection id "0HMT7RKT2O42N" sending FIN because: "The client closed the connection."
+2023-08-28 16:41:27.972 +01:00 [DBG] Connection id "0HMT7RKT2O42L" received FIN.
+2023-08-28 16:41:27.972 +01:00 [DBG] Connection id "0HMT7RKT2O42K" disconnecting.
+2023-08-28 16:41:27.972 +01:00 [DBG] Connection id "0HMT7RKT2O42N" disconnecting.
+2023-08-28 16:41:27.973 +01:00 [DBG] Connection id "0HMT7RKT2O42K" stopped.
+2023-08-28 16:41:27.973 +01:00 [DBG] Connection id "0HMT7RKT2O42N" stopped.
+2023-08-28 16:41:27.973 +01:00 [DBG] Connection id "0HMT7RKT2O42O" disconnecting.
+2023-08-28 16:41:27.973 +01:00 [DBG] Connection id "0HMT7RKT2O42O" stopped.
+2023-08-28 16:41:27.974 +01:00 [DBG] Connection id "0HMT7RKT2O42M" sending FIN because: "The client closed the connection."
+2023-08-28 16:41:27.974 +01:00 [DBG] Connection id "0HMT7RKT2O42L" disconnecting.
+2023-08-28 16:41:27.974 +01:00 [DBG] Connection id "0HMT7RKT2O42K" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-28 16:41:27.975 +01:00 [DBG] Connection id "0HMT7RKT2O42M" disconnecting.
+2023-08-28 16:41:27.975 +01:00 [DBG] Connection id "0HMT7RKT2O42L" sending FIN because: "The client closed the connection."
+2023-08-28 16:41:27.975 +01:00 [DBG] Connection id "0HMT7RKT2O42O" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-28 16:41:27.975 +01:00 [DBG] Connection id "0HMT7RKT2O42L" stopped.
+2023-08-28 16:41:27.975 +01:00 [DBG] Connection id "0HMT7RKT2O42M" stopped.
+2023-08-28 16:42:08.819 +01:00 [DBG] Connection id "0HMT7RKT2O42P" accepted.
+2023-08-28 16:42:08.869 +01:00 [DBG] Connection id "0HMT7RKT2O42P" started.
+2023-08-28 16:42:08.927 +01:00 [DBG] Connection 0HMT7RKT2O42P established using the following protocol: "Tls12"
+2023-08-28 16:42:08.930 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7015/api/Authentication/authenticate application/json 50
+2023-08-28 16:42:08.943 +01:00 [DBG] 1 candidate(s) found for the request path '/api/Authentication/authenticate'
+2023-08-28 16:42:08.946 +01:00 [DBG] Endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)' with route pattern 'api/Authentication/authenticate' is valid for the request path '/api/Authentication/authenticate'
+2023-08-28 16:42:08.958 +01:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2023-08-28 16:42:08.959 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-28 16:42:08.960 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-08-28 16:42:08.964 +01:00 [INF] Executing endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2023-08-28 16:42:08.982 +01:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Authenticate(AuthenticationRequestBody) on controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API).
+2023-08-28 16:42:08.983 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-28 16:42:08.983 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-28 16:42:08.983 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-08-28 16:42:08.983 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-28 16:42:08.983 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-08-28 16:42:08.984 +01:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API)
+2023-08-28 16:42:08.984 +01:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API)
+2023-08-28 16:42:08.989 +01:00 [DBG] Attempting to bind parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody' ...
+2023-08-28 16:42:08.991 +01:00 [DBG] Attempting to bind parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody' using the name '' in request data ...
+2023-08-28 16:42:08.992 +01:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2023-08-28 16:42:08.993 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2023-08-28 16:42:08.999 +01:00 [DBG] Connection id "0HMT7RKT2O42P", Request id "0HMT7RKT2O42P:00000001": started reading request body.
+2023-08-28 16:42:08.999 +01:00 [DBG] Connection id "0HMT7RKT2O42P", Request id "0HMT7RKT2O42P:00000001": done reading request body.
+2023-08-28 16:42:09.046 +01:00 [DBG] Done attempting to bind parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2023-08-28 16:42:09.046 +01:00 [DBG] Done attempting to bind parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2023-08-28 16:42:09.046 +01:00 [DBG] Attempting to validate the bound parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody' ...
+2023-08-28 16:42:09.048 +01:00 [DBG] Done attempting to validate the bound parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2023-08-28 16:42:09.083 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-08-28 16:42:09.084 +01:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-08-28 16:42:09.084 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2023-08-28 16:42:09.084 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-08-28 16:42:09.086 +01:00 [INF] Executed action CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API) in 102.0345ms
+2023-08-28 16:42:09.086 +01:00 [INF] Executed endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2023-08-28 16:42:09.087 +01:00 [DBG] Connection id "0HMT7RKT2O42P" completed keep alive response.
+2023-08-28 16:42:09.087 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7015/api/Authentication/authenticate application/json 50 - 200 - text/plain;+charset=utf-8 156.4778ms
+2023-08-28 16:42:13.016 +01:00 [DBG] Connection id "0HMT7RKT2O42P" received FIN.
+2023-08-28 16:42:13.016 +01:00 [DBG] Connection id "0HMT7RKT2O42P" disconnecting.
+2023-08-28 16:42:13.016 +01:00 [DBG] Connection id "0HMT7RKT2O42P" sending FIN because: "The client closed the connection."
+2023-08-28 16:42:13.018 +01:00 [DBG] Connection id "0HMT7RKT2O42P" stopped.
